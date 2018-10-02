@@ -10,6 +10,7 @@ class LibraryList extends Component{
     }
 
     render() {
+        console.log('LibraryList: ');
         console.log(this.props.libraries);
         return(
             <FlatList data = {this.props.libraries} 

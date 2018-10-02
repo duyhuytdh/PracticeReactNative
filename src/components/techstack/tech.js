@@ -9,7 +9,7 @@ import LibraryList from './LibraryList';
 const Tech = () => {
     return(
         <Provider store={createStore(reducers)}>
-            <View>
+            <View style={{flex:1}}>
                 <Header headerText={'Tech Stack'}></Header>
                 <LibraryList/>
             </View>
